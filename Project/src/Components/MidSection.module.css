@@ -1,5 +1,5 @@
 .Container{
-  background-image: url('./src/assets/backgroundimg.jpg');
+  background-image: url('../assets/backgroundimg.jpg');
   background-size: cover; 
   background-position: center; 
   height: 50vh; 
