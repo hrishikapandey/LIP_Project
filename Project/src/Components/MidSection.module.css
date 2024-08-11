@@ -1,0 +1,47 @@
+.Container{
+  background-image: url('./src/assets/backgroundimg.jpg');
+  background-size: cover; 
+  background-position: center; 
+  height: 50vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;       
+  text-align: center;                    
+  padding: 20px;  
+  color: black;
+  font-family: sans-serif;
+  
+}
+
+  
+  .Heading h1 {
+    font-size: 3rem;         
+    margin: 0;                 
+  }
+  
+  .Heading h2 {
+    font-size: 2rem;         
+    margin: 10px 0 0;          
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Heading h1 {
+      font-size: 2rem;         
+    }
+  
+    .Heading h2 {
+      font-size: 1.2rem;       
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Heading h1 {
+      font-size: 1.5rem;       
+    }
+  
+    .Heading h2 {
+      font-size: 1rem;         
+    }
+  }
+  
